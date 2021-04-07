@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const WorkOutSchema = new Schema({
+const WorkOutzSchema = new Schema({
     // Enter reverse engineer here
+    // would like to add validators to Numbers to be positive numbers
     day: { type: Date, default: Date.now },
     excersize: [{
         type: { type: String, trim: true, required: "Choose a type" },
@@ -16,6 +17,6 @@ const WorkOutSchema = new Schema({
     }]
 });
 
-const WorkOuts = mongoose.model("WorkOuts", WorkOutSchema);
+const WorkOuts = mongoose.model("WorkOuts", WorkOutzSchema);
 
 module.exports = WorkOuts;
