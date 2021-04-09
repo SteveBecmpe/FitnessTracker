@@ -10,15 +10,20 @@
   -[Test Instructions](#Tests)
   
   ## Description    
-  Fitness tracker app.    
+  Fitness tracker app allows the user to track excersize activities and displaying work outs on a daily or weekly basis.
+  The user can create new work outs for future use and revisit them later. Once complete mark the activity as complete for it to show up in the daily and weekly dashboard.
     
   
   ## Installation    
-  npm install
+  Running this application locally on your machine requires mongoDB to be installed and running.
+  An npm install is also required from the command line followed by a Node server.js to start the application.
+
+  Alternativly installation is not required as this application is deployed live using heroku and mongodb atlas.
+  this user experience requires no installation. 
     
   
   ## Usage    
-  None   
+  This application falls under the MIT license so all use, rights, etc are at your own risk.
   
   
   ## License   
@@ -28,11 +33,12 @@
   
   
   ## Contributing 
-  None   
+  This assignment is only partiall my code. All of the front end code was provided.
+  My contributions where in the routes, models and server.js files. Even this code is semi a collaboration with my class mates as we have learned to solve problems together.  
     
   
   ## Tests       
-  None    
+  This application has no testing capabilities or attributes. 
   
   
   ## Questions: 
